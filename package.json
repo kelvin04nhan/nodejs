@@ -7,7 +7,7 @@
     "start": "nodemon --inspect index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": { 
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/kelvin04nhan/nodejs.git"
   },
@@ -26,6 +26,7 @@
     "express": "^4.19.2"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "nodemon": "^3.1.0"
   }
 }
