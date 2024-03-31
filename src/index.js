@@ -11,6 +11,8 @@ app.use(morgan('combined'));
 //template engine
 app.engine('handlebars', handlebars());
 app.set('view engine', 'handlebars')
+app.set('views', path.join(__dirname, 'resources/views'));
+
 
 app.get('/', (req, res) => {
   res.render('home');
